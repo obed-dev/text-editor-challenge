@@ -53,9 +53,12 @@ const App = () => {
 
   return (
     <div className="p-6 bg-gray-100 min-h-screen">
-      <h1 className="text-2xl font-bold underline mb-4 text-center">Text Editor</h1>
-      
-      <div className="flex justify-center space-x-4 mb-6">
+      <h1 className="text-2xl font-bold underline mb-4 text-center">
+        Text Editor
+      </h1>
+
+      {/* Responsive button group */}
+      <div className="flex flex-wrap justify-center space-x-2 space-y-2 mb-6">
         <button className="p-2 bg-gray-300 rounded" onClick={Bold}>
           <AiOutlineBold />
         </button>
@@ -83,10 +86,16 @@ const App = () => {
         <button className="p-2 bg-gray-300 rounded" onClick={Quotes}>
           "
         </button>
-        <button className="p-2 bg-gray-300 rounded" onClick={() => setUpperCase(true)}>
+        <button
+          className="p-2 bg-gray-300 rounded"
+          onClick={() => setUpperCase(true)}
+        >
           UC
         </button>
-        <button className="p-2 bg-gray-300 rounded" onClick={() => setUpperCase(false)}>
+        <button
+          className="p-2 bg-gray-300 rounded"
+          onClick={() => setUpperCase(false)}
+        >
           LC
         </button>
         <button className="p-2 bg-red-300 rounded" onClick={reset}>
@@ -94,8 +103,9 @@ const App = () => {
         </button>
       </div>
 
+      {/* Responsive textarea */}
       <textarea
-        className="w-full p-4 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
+        className="w-full p-4 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 resize-none"
         rows="6"
         placeholder="Type something..."
         style={{
@@ -111,7 +121,7 @@ const App = () => {
       ></textarea>
 
       <button
-        className="p-2 bg-blue-500 text-white rounded mb-4"
+        className="p-2 w-full sm:w-auto bg-blue-500 text-white rounded mb-4"
         onClick={() => {
           const analysis = Analyse(text);
           console.log(analysis);
@@ -121,7 +131,7 @@ const App = () => {
       </button>
 
       <textarea
-        className="w-full p-4 border rounded-lg bg-gray-200"
+        className="w-full p-4 border rounded-lg bg-gray-200 resize-none"
         rows="6"
         placeholder="Analysis"
         disabled
