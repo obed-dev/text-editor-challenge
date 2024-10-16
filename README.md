@@ -1,4 +1,5 @@
-Text Editor Project
+Text Editor Project:
+
 This is a React-based Text Editor that allows users to format text by applying various styles such as bold, italic, underline, text alignment, font size changes, quotes, and case transformations. The project also includes a feature to analyze the text, providing word count and letter count.
 
 Features
@@ -9,6 +10,8 @@ Quotes: Add quotes to the text.
 Uppercase/Lowercase: Toggle text between uppercase and lowercase.
 Text Analysis: Analyze the text for the number of words and letters.
 Reset: Reset the text and formatting to default values.
+
+
 Technologies Used
 React: Frontend framework for building the user interface.
 Tailwind CSS: Utility-first CSS framework used for styling the editor.
