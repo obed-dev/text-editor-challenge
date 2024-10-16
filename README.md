@@ -1,8 +1,8 @@
-##Text Editor Project:
+## Text Editor Project:
 
 This is a React-based Text Editor that allows users to format text by applying various styles such as bold, italic, underline, text alignment, font size changes, quotes, and case transformations. The project also includes a feature to analyze the text, providing word count and letter count.
 
-##Features
+## Features
 Bold, Italic, and Underline: Toggle bold, italic, and underline styles for the selected text.
 Text Alignment: Align text to the left, center, or right.
 Font Size Adjustment: Increase or decrease the font size.
@@ -12,12 +12,12 @@ Text Analysis: Analyze the text for the number of words and letters.
 Reset: Reset the text and formatting to default values.
 
 
-##Technologies Used
+## Technologies Used
 React: Frontend framework for building the user interface.
 Tailwind CSS: Utility-first CSS framework used for styling the editor.
 React Icons: Used for icons in the text editor (e.g., bold, italic, alignment icons).
 
-##Installation
+## Installation
 Clone this repository to your local machine:
 
 git clone https://github.com/your-username/text-editor.git
@@ -56,14 +56,15 @@ Copiar código
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-Start the development server:
+
+# Start the development server:
 
 
 
 npm run dev
 The project will be running on http://localhost:3000.
 
-##Usage
+## Usage
 Use the text area to type your content.
 Format the text by clicking on the bold, italic, or underline buttons.
 Adjust the alignment of your text (left, center, right).
@@ -71,7 +72,7 @@ Increase or decrease the font size using the A+ and A- buttons.
 Analyze your text by clicking the "Analyze" button. The analysis will show the word count and letter count.
 Reset the editor by clicking the reset button (rollback icon).
 
-##Project Structure
+## Project Structure
 
 .
 ├── public
@@ -85,16 +86,16 @@ Reset the editor by clicking the reset button (rollback icon).
 └── tailwind.config.js # Tailwind CSS configuration file
 
 
-##Future Improvements
+## Future Improvements
 Add support for saving and loading text files.
 Add more formatting options (e.g., bullet points, numbered lists).
 Implement dark mode using Tailwind CSS.
 Add real-time analysis of the text.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
+## Contact
 If you have any questions or feedback, feel free to reach out to me at:
 
 Email: obed-dev@example.com
