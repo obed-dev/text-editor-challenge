@@ -13,9 +13,13 @@ Reset: Reset the text and formatting to default values.
 
 
 ## Technologies Used
-# React: Frontend framework for building the user interface.
-# Tailwind CSS: Utility-first CSS framework used for styling the editor.
-# React Icons: Used for icons in the text editor (e.g., bold, italic, alignment icons).
+ React: Frontend framework for building the user interface.
+ 
+
+ Tailwind CSS: Utility-first CSS framework used for styling the editor.
+
+
+ React Icons: Used for icons in the text editor (e.g., bold, italic, alignment icons).
 
 ## Installation
 Clone this repository to your local machine:
